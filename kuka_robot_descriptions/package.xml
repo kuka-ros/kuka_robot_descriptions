@@ -3,13 +3,11 @@
   <name>kuka_robot_descriptions</name>
   <version>2.0.2</version>
   <description>Robot descriptions and moveit configurations for KUKA robots</description>
-  <maintainer email="svastits1@gmail.com">Aron Svastits</maintainer>
-  <maintainer email="kovacsge.work@gmail.com">Gergely Kovacs</maintainer>
-  <maintainer email="pasztor.kristof.kp@gmail.com">Kristof Matyas Pasztor</maintainer>
-  <maintainer email="pepo.tamas@gmail.com">Tamas Pepo</maintainer>
+  <maintainer email="tamas.pepo@kuka.com">Tamas Pepo</maintainer>
+  <maintainer email="aron.svastits@kuka.com">Aron Svastits</maintainer>
   <license>Apache-2.0</license>
-  <url type="bugtracker">https://github.com/kroshu/kuka_robot_descriptions/issues</url>
-  <url type="repository">https://github.com/kroshu/kuka_robot_descriptions</url>
+  <url type="bugtracker">https://github.com/kuka-ros/kuka_robot_descriptions/issues</url>
+  <url type="repository">https://github.com/kuka-ros/kuka_robot_descriptions</url>
   <buildtool_depend>ament_cmake</buildtool_depend>
   <exec_depend>kuka_agilus_support</exec_depend>
   <exec_depend>kuka_cybertech_support</exec_depend>

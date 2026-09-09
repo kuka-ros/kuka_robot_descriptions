@@ -15,7 +15,7 @@
   <xacro:arg name="pitch" default="0"/>
   <xacro:arg name="yaw" default="0"/>
   <xacro:arg name="rsi_xml_config_file" default=""/>
-  <!-- kroshu-specific arguments -->
+  <!-- driver-specific arguments -->
   <xacro:arg name="driver_version" default="rsi_only"/>
   <xacro:arg name="mode" default="hardware"/>
   <xacro:arg name="use_gpio" default="false"/>

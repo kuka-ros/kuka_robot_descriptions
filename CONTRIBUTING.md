@@ -1,6 +1,6 @@
 ## Issue tracking
 
-If you have questions, suggestions or have found a bug, feel free to open an [issue](https://github.com/kroshu/kuka_robot_descriptions/issues).
+If you have questions, suggestions or have found a bug, feel free to open an [issue](https://github.com/kuka-ros/kuka_robot_descriptions/issues).
 When filing an issue, please check open issues to make sure somebody else hasn't already reported it. Please try to include as much information as you can, including:
 
 - The version/commit hash of our code being used

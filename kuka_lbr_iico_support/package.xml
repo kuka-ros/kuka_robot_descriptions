@@ -3,10 +3,8 @@
   <name>kuka_lbr_iico_support</name>
   <version>1.0.0</version>
   <description>Package containing models of KUKA LBR iico family</description>
-  <maintainer email="svastits1@gmail.com">Aron Svastits</maintainer>
-  <maintainer email="kovacsge.work@gmail.com">Gergely Kovacs</maintainer>
-  <maintainer email="pasztor.kristof.kp@gmail.com">Kristof Matyas Pasztor</maintainer>
-  <maintainer email="pepo.tamas@gmail.com">Tamas Pepo</maintainer>
+  <maintainer email="tamas.pepo@kuka.com">Tamas Pepo</maintainer>
+  <maintainer email="aron.svastits@kuka.com">Aron Svastits</maintainer>
   <license>Apache-2.0</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>urdf</depend>
