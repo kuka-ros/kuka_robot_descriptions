@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>kuka_lbr_iisy_moveit_config</name>
+  <version>1.1.2</version>
+  <description>Package containing moveit configurations for KUKA LBR iisy family</description>
+  <maintainer email="tamas.pepo@kuka.com">Tamas Pepo</maintainer>
+  <maintainer email="aron.svastits@kuka.com">Aron Svastits</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+  <exec_depend>kuka_resources</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>moveit</exec_depend>
+  <exec_depend>moveit_planners</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <test_depend>rviz2</test_depend>
+  <export>
+    <architecture_independent/>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
