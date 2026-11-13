@@ -35,6 +35,17 @@ repos:
 
 
   # Python hooks
+  - repo: local
+    hooks:
+      - id: check_inertia
+        name: check_inertia
+        description: Check that verified inertia tensors are physically realisable.
+        entry: python3 check_inertia.py
+        language: python
+        additional_dependencies: [numpy]
+        pass_filenames: false
+        files: (README\.md|_macro\.xacro)$
+
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.21.2
     hooks:
