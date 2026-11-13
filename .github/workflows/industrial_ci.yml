@@ -49,4 +49,7 @@ jobs:
       - uses: 'ros-industrial/industrial_ci@master'
         env: ${{ matrix.env }}
       - name: check inertia
-        run: python3 check_inertia.py
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-numpy
+          python3 check_inertia.py
