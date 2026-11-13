@@ -48,3 +48,5 @@ jobs:
         run: chmod +x .ci_config/hooks/before_run_target_test.sh
       - uses: 'ros-industrial/industrial_ci@master'
         env: ${{ matrix.env }}
+      - name: check inertia
+        run: python3 check_inertia.py
